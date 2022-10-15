@@ -6,16 +6,14 @@
  */
 int main(void)
 {
-	int base16;
+	int nums;
+	char letters;
 
-	for (base16 = 0; base <= 9; base++)
-	{
-		putchar((base % 10) + '0');
-		if (base == 9)
-			continue;
-		putchar(',');
-		putchar(' ');
-	}
+	for (nums = 0; nums <= 9; nums++)
+		putchar((nums % 10) + '0');
+
+	for (letters = 'a'; letters <= 'f'; letters++)
+		putchar(letters);
 
 	putchar('\n');
 

@@ -1,22 +1,23 @@
 #include <stdio.h>
 /**
- * main - Prints all possible combinations of base 16
+ * main - Prints all single digits
  *
  * Return: Always 0
  */
 int main(void)
 {
-	int base16;
+	int digit;
 
-	for (base16 = 0; base16 <= 9; base16++)
+	for (digit = 0; digit <= 9; digit++)
 	{
-		putchar((base16 % 10) + '0);
-		if (base == 9)
+		putchar((digit % 10) + '0');
+		if (digit == 9)
 			continue;
-		putchar(', ');
+		putchar(',');
 		putchar(' ');
 	}
 
-	putchar('\n);
+	putchar('\n');
+
 	return (0);
 }

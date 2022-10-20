@@ -4,7 +4,7 @@
 /**
  * main - entry point
  *
- * Description: prints the numbers 1 - 100 w/Fizz
+ * Description: prints the numbers 1 - 100 w / Fizz
  *
  * Return: always 0
  */

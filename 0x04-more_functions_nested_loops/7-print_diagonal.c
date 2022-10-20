@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - printing lines diagonal
- * @n: input variable
+ * @n: input variable required
  *
  * Return: void
  */

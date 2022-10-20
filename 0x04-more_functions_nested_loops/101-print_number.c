@@ -4,7 +4,7 @@
  * print_number - prints an integer
  * @n:.input integer parameter
  *
- * Return: 0 or 1 
+ * Return: 0 or 1
  */
 void print_number(int n)
 {

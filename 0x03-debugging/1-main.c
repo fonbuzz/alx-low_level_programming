@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - causes an infinite loop
+* main - causes an infinite loop on the digits
 * Return: 0
 */
 

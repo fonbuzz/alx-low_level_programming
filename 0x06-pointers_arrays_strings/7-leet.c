@@ -6,6 +6,7 @@
  *
  * Return: address of s
  */
+
 char *leet(char *s)
 {
 	int i, j;

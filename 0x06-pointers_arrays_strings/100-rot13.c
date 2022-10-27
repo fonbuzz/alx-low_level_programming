@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * rot13 - rot13 encoder
  * @str: string to be encoded

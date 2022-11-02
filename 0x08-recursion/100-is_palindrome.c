@@ -4,6 +4,7 @@
  * @s: the string to be printed
  * Return: the length of string
  */
+
 int _strlen_recursion(char *s)
 {
 	if (s[0] != '\0')
@@ -17,6 +18,7 @@ int _strlen_recursion(char *s)
  * @j: rigth index.
  * Return: 1 if s is palindrome, 0 otherwise.
  */
+
 int pal_checker(char *s, int i, int j)
 {
 	if (s[i] == s[j])
@@ -33,6 +35,7 @@ int pal_checker(char *s, int i, int j)
  *
  * Return: 1 if n is prime, 0 otherwise.
  */
+
 int is_palindrome(char *s)
 {
 	return (pal_checker(s, 0, _strlen_recursion(s) - 1));

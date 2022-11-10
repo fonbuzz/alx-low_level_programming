@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _calloc - allocates memory for an array of @nmemb elements of
  * @size bytes each and returns a pointer to the allocated memory.

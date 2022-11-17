@@ -1,5 +1,4 @@
 #include "variadic_functions.h"
-
 /**
  * print_strings - Prints strings passed to the function separed by separators
  * @separator: A string that is used to separate strings
